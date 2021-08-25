@@ -16,8 +16,10 @@ public class bai3 {
         }
         return true;
     }
-    public static void main(String[] args) {
+    public static void main() {
+
         System.out.println("In ra man hinh tat ca cac so nguyen to tu 1000 den 2000");
+        System.out.println();
         for(int i = 1000;i<=2000;i++){
             if(isPrimeNumber(i)){
                 System.out.print( i +" ");

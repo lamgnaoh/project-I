@@ -1,6 +1,6 @@
 package com.company;
 
-import java.util.Scanner;
+        import java.util.Scanner;
 
 public class bai1 {
     public static int  denominator(int n){

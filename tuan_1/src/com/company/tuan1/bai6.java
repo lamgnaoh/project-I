@@ -28,9 +28,10 @@ public class bai6 {
 //        }
 //        return false;
 //    }
-    public static void main(String[] args) {
+    public static void main() {
         int count =0 ;
         System.out.println("In ra màn hình 5 số hoàn hảo đầu tiên:  ");
+        System.out.println();
         for(int i =1;;i++){
             if(isPrimeNumber(Math.pow(2,i)-1)){
                 System.out.print(Math.pow(2,i-1)*(Math.pow(2,i)-1)+" ");

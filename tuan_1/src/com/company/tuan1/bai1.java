@@ -16,8 +16,10 @@ public class bai1 {
         return false ;
     }
 
-    public static void main(String[] args) {
+    public static void main() {
 	// write your code here
+        System.out.println("In ra màn hình tất cả các hợp số <100");
+        System.out.println();
         System.out.println("Cac hop so nho hon 100 la : ");
         for(int i =0;i<100;i++) {
             if (isCompositeNumber(i)) {

@@ -7,8 +7,9 @@ public class bai4 {
         }
         return false;
     }
-    public static void main(String[] args) {
+    public static void main() {
         System.out.println("In ra màn hình các số < 100 và chia hết cho 3 và 7: ");
+        System.out.println();
         for(int i =0 ;i<100;i++){
             if(isDivide3And7(i)){
                 System.out.print(i+" ");

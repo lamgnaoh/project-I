@@ -18,8 +18,9 @@ public class bai9 {
         }
         return true;
     }
-    public static void main(String[] args) {
-
+    public static void main() {
+        System.out.println("Cho số tự nhiên N>1 bất kỳ (đã gán trước đó). In ra khai triển thành tích các số nguyên tố tính từ nhỏ đến lớn VD: 9 = 3.3; 12 = 2.2.3.");
+        System.out.println();
         System.out.println("Nhap n :");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

@@ -18,7 +18,9 @@ public class bai10 {
         }
         return true;
     }
-    public static void main(String[] args) {
+    public static void main() {
+        System.out.println("Cho trước số tự nhiên N bất kỳ (đã gán trước đó). In ra màn hình tất cả các ước số nguyên tố khác nhau của N");
+        System.out.println();
         System.out.println("Nhap n :");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

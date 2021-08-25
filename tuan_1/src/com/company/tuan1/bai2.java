@@ -17,9 +17,10 @@ public class bai2 {
         }
         return true;
     }
-    public static void main(String[] args) {
+    public static void main() {
         int count = 0 ;
         System.out.println("In ra màn hình 20 số nguyên tố đầu tiên : ");
+        System.out.println();
         for(int i = 0;;i++){
             if(isPrimeNumber(i)){
                 System.out.print(i +" ");

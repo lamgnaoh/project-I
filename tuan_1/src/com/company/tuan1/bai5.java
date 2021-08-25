@@ -7,8 +7,9 @@ public class bai5 {
         }
         return false;
     }
-    public static void main(String[] args) {
+    public static void main() {
         System.out.println("In ra màn hình các số nằm giữa 1000 đến 2000 và chia hết cho 3 5 7");
+        System.out.println();
         for(int i=1000;i<= 2000;i++){
             if(isDivide3And5And7(i)){
                 System.out.print(i+ " ");

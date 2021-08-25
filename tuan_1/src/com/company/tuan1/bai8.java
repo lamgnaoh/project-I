@@ -18,7 +18,9 @@ public class bai8 {
         }
         return true;
     }
-    public static void main(String[] args) {
+    public static void main() {
+        System.out.println("Cho số tự nhiên N bất kỳ (đã gán trước đó), tìm và in ra ước số nguyên tố nhỏ nhất của N");
+        System.out.println();
         System.out.println("Nhap n :");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

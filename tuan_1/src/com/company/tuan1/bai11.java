@@ -15,7 +15,9 @@ public class bai11 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main() {
+        System.out.println("Viết chương trình tráo đổi ngẫu nhiên vị trí một dãy số cho trước. Để lấy một số int ngẫu nhiên từ 0 đến n-1 ta dùng lệnh int i = Random.nextInt(n); ");
+        System.out.println();
         System.out.println("Nhap so phan tu cua mang :");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
